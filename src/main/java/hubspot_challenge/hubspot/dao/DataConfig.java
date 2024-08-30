@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class DataConfig {
     Logger LOG = LoggerFactory.getLogger(DataConfig.class);
 
-    @Value("${hubspot_challenge.hubsport.get.employee}")
+    @Value("${hubspot_challenge.hubspot.get.employee}")
     private String getEmployeeUrl;
 
     @PostConstruct
